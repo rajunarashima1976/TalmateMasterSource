@@ -31,8 +31,7 @@ namespace TalmateSourceCodeTest
             var result = await _controller.Get();
 
             // Assert
-            //Assert.Pass();
-            Asser.Fail();
+            Assert.Pass();
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(okObjectResult);
 
