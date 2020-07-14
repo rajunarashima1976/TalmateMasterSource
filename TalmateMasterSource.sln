@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalmateMasterTest", "TalmateMasterTest\TalmateMasterTest.csproj", "{551D31A1-79E8-455C-95BF-E53D44928359}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{551D31A1-79E8-455C-95BF-E53D44928359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551D31A1-79E8-455C-95BF-E53D44928359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551D31A1-79E8-455C-95BF-E53D44928359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551D31A1-79E8-455C-95BF-E53D44928359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
